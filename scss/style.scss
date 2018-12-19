@@ -1,0 +1,382 @@
+@import "reset";
+@import "variables";
+@import "privateelements";
+
+header { @extend  %flex-m;
+}
+.mother {
+ height: 100px;
+ @extend %margin0;
+ max-width: 1170px;
+ @extend %flex-m;
+}
+
+nav {
+       ul{
+    @extend %flex-m;
+    margin-right: 30px;
+ 
+}
+    li {
+    width: 50px;
+    font-size: $font;
+    color: $color-blue;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+   
+   }
+  a {
+    font-size:$font;
+    color:$text-color;
+   
+}
+ a:hover {
+    font-size: $font;
+    color: #29ABE2;
+   }
+}
+
+.burgerimg{
+ width: 30px;
+ height: 30px;
+ display: none;
+
+}
+
+.icons {
+    ul{
+ @extend  %flex-end ;
+ width: 350px;
+
+     }
+
+ li {
+ border-right: 2px solid $color-blue;
+ margin-left: 30px;
+ margin-right: 20px;
+ width: 65px;
+ font-size: $bigfont;
+ color: $color-blue;
+
+}
+.icons img {
+    height: $imgh;
+    
+    }
+}
+.icons li:last-child {
+ border-right: none;
+ margin-right: 0;
+}
+.icons a:hover {
+cursor: pointer;
+height: $imgh;
+
+}
+.icons li:first-child {
+margin-left: 0;
+}
+
+.imgburger {
+    width: 100%;
+    height: 100%;
+   }
+.headerimg {
+ width: 200px;
+}
+.headerimgdiv
+{
+    width: 200px;
+    
+   }
+
+
+.container {
+    @extend %width100;
+    background: $color-lightblue;
+    
+}   
+.box{
+
+    @extend %margin0;
+    @extend %flex-m;
+    h3 {
+        font-size: $bigfont;
+        margin-right: 15px;
+        color: $color-blue;
+       }
+       i {
+           color: $color-white;
+           margin-right: 15px;
+       }
+    h2{
+     font-size: $font;
+     color:$color-white;
+    }
+       .atleft{
+        @extend %flex-s
+       }
+}
+
+.box 
+h3:last-child
+       {
+        color: $color-white;
+       }
+
+.containercenter  {   
+
+    @extend %width100;
+    .boxcenter{
+        @extend %margin0;
+        .smallbox{
+            width: 60px;
+            height: 60px;
+            border: 2px solid $color-lightblue;
+           @extend %margin-top;
+            color: $color-blue;
+            font-size: 34px;
+            text-align: center;
+            line-height: 20px;
+            padding-top: 10px;
+
+
+        }
+        
+            span {
+                font-size:12px;
+                text-transform: uppercase;
+                text-align: center;
+                line-height: 15px;
+
+                
+            }
+        
+            img {
+            width: 370px;
+            height: 287px;
+            @extend %floatl;
+          
+            
+            }
+            h2{
+                font-size: $font;
+                color:$color-blue;
+                @extend %margin-top;
+                
+               }
+               .pandimg{
+                width:1170px;
+                @extend %margin-top;
+               
+
+            }
+        
+               .pimg {
+                @extend %floatr;
+                width: 770px;
+                font-size: $ptext;
+                color: $text-color;
+                word-spacing: 2px;
+                line-height: normal;
+                vertical-align: middle;
+                
+               }
+               .p {
+                @extend %floatr;
+                font-size:$ptext;
+                color: $text-color;
+                word-spacing: 2px;
+                line-height: normal;
+                @extend %margin-top;
+
+                            
+               }
+               .clear {
+                   clear: both;
+               }
+               
+    }
+
+}  
+
+.sharesdiv {
+    background: $color-lightblue;
+  }
+  .shares {
+    height: 100px;
+    @extend %margin0;
+    @extend %margin-top;
+    h3{
+        font-size: $font;
+        color: $color-white;
+        @extend %floatl;
+        line-height: 100px;
+
+
+    }
+  }
+  
+  
+  .sharesimg{
+    line-height: 120px;
+    height: 22px;
+    @extend %floatr;
+}    
+  
+  .sharesimg a {
+   width: 70px;
+   margin: auto;
+  }
+  
+
+
+  .lastsection {
+    width: 100%;
+    height: 345px;
+    background-color: #E6E6E6;
+  
+  }
+  .contentf {
+    font-size: 24px;
+    font-family: "roboto";
+    @extend %displayin ;
+    width: 130px;
+    border-right: 1px solid $color-black;
+    height: 27px;
+    padding-right:  5px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $color-black;
+    
+  }
+  .contentf2 {
+    font-size: 24px;
+    font-family: "roboto";
+    @extend %displayin ;
+    height: 18px;
+    padding-left: 5px;
+    font-weight: normal;
+    color: $color-black;
+  }
+  /*content finish*/
+  
+  /*respinsive start*/
+  
+  
+  .responsivemother {
+  @extend %margin0 ;
+  
+  }
+  .lastnav{
+  
+    padding-top: 30px;
+  }
+  .responsive {
+  
+    width: 570px;
+    height: 225px;
+    background-color: $color-bg;
+    @extend %margin-top;
+    @extend %floatl;
+    @extend %positionr;  
+  } 
+  .responsive2 {
+  
+    width: 570px;
+    height: 225px;
+    background-color: $color-bg;
+    @extend %margin-top;
+    margin-left: 30px;
+    @extend %positionr;  
+  
+  }
+  
+  .responsiveh{
+    font-size: $font;
+    color:$color-blue;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+  
+  .imgresp{
+    height: 141px;
+    padding-left: 40px;
+    padding-top: 20px;
+    vertical-align: middle;
+  }
+  .imgrespp {
+    width: 340px;
+    height: 125px;
+    padding-right: 20px;
+    font-family: "roboto";
+    font-size: $font;
+    color: #333333;
+    @extend %floatr;
+    padding-top: 30px;
+    line-height: 23px;
+  }
+  
+  .imgresp2{
+    height: 141px;
+    padding-left: 60px;
+    @extend %displayin ;
+    padding-top: 17px;
+    vertical-align: middle;
+  
+  }
+  .imgrespp2{
+    width: 355px;
+    height: 120px;
+    padding-left: 40px;
+    @extend %displayin ;
+    font-family: "roboto";
+    font-size: $font;
+    color: #333333;
+    vertical-align: middle;
+    padding-top: 10px;
+    line-height: 23px;}
+  
+    .read {
+      font-size: 14px;
+      @extend %displayin ;
+      font-family: "roboto";
+      color: $color-blue;
+      @extend %positiona;
+      right: 10px;
+      bottom: 10px;
+    }
+    .articler
+    {
+      @extend %floatl;
+    }
+  
+    footer {
+        width: 100%;
+        height: 60px;
+      
+      }
+      .footerdiv
+      {
+        @extend %margin0;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .footerpp
+      {
+        margin-top: 10px;
+        font-size: 12px;
+        display: block;
+      
+      }
+      .footerp
+      { 
+        font-size: 12px;
+         display: block;
+        margin-top: 10px;
+      }
+      

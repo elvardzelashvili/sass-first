@@ -1,0 +1,334 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.containercenter .boxcenter img, .shares h3, .responsive, .articler {
+  float: left; }
+
+.containercenter .boxcenter .pimg, .containercenter .boxcenter .p, .sharesimg, .imgrespp {
+  float: right; }
+
+header, .mother, nav ul, .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.box .atleft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.icons ul {
+  display: flex;
+  justify-content: flex-end; }
+
+.mother, .box, .containercenter .boxcenter, .shares, .responsivemother, .footerdiv {
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 1170px;
+  width: 95%; }
+
+.container, .containercenter {
+  width: 100%; }
+
+.containercenter .boxcenter .smallbox, .containercenter .boxcenter h2, .containercenter .boxcenter .pandimg, .containercenter .boxcenter .p, .shares, .responsive, .responsive2 {
+  margin-top: 30px; }
+
+.read {
+  position: absolute; }
+
+.responsive, .responsive2 {
+  position: relative; }
+
+.contentf, .contentf2, .imgresp2, .imgrespp2, .read {
+  display: inline-block; }
+
+.mother {
+  height: 100px;
+  max-width: 1170px; }
+
+nav ul {
+  margin-right: 30px; }
+
+nav li {
+  width: 50px;
+  font-size: 22px;
+  color: #3D58A6;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-transform: uppercase; }
+
+nav a {
+  font-size: 22px;
+  color: #58595B; }
+
+nav a:hover {
+  font-size: 22px;
+  color: #29ABE2; }
+
+.burgerimg {
+  width: 30px;
+  height: 30px;
+  display: none; }
+
+.icons ul {
+  width: 350px; }
+
+.icons li {
+  border-right: 2px solid #3D58A6;
+  margin-left: 30px;
+  margin-right: 20px;
+  width: 65px;
+  font-size: 30px;
+  color: #3D58A6; }
+
+.icons .icons img {
+  height: 30px; }
+
+.icons li:last-child {
+  border-right: none;
+  margin-right: 0; }
+
+.icons a:hover {
+  cursor: pointer;
+  height: 30px; }
+
+.icons li:first-child {
+  margin-left: 0; }
+
+.imgburger {
+  width: 100%;
+  height: 100%; }
+
+.headerimg {
+  width: 200px; }
+
+.headerimgdiv {
+  width: 200px; }
+
+.container {
+  background: #BDCCD4; }
+
+.box h3 {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #3D58A6; }
+
+.box i {
+  color: white;
+  margin-right: 15px; }
+
+.box h2 {
+  font-size: 22px;
+  color: white; }
+
+.box h3:last-child {
+  color: white; }
+
+.containercenter .boxcenter .smallbox {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #BDCCD4;
+  color: #3D58A6;
+  font-size: 34px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px; }
+
+.containercenter .boxcenter span {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px; }
+
+.containercenter .boxcenter img {
+  width: 370px;
+  height: 287px; }
+
+.containercenter .boxcenter h2 {
+  font-size: 22px;
+  color: #3D58A6; }
+
+.containercenter .boxcenter .pandimg {
+  width: 1170px; }
+
+.containercenter .boxcenter .pimg {
+  width: 770px;
+  font-size: 20px;
+  color: #58595B;
+  word-spacing: 2px;
+  line-height: normal;
+  vertical-align: middle; }
+
+.containercenter .boxcenter .p {
+  font-size: 20px;
+  color: #58595B;
+  word-spacing: 2px;
+  line-height: normal; }
+
+.containercenter .boxcenter .clear {
+  clear: both; }
+
+.sharesdiv {
+  background: #BDCCD4; }
+
+.shares {
+  height: 100px; }
+  .shares h3 {
+    font-size: 22px;
+    color: white;
+    line-height: 100px; }
+
+.sharesimg {
+  line-height: 120px;
+  height: 22px; }
+
+.sharesimg a {
+  width: 70px;
+  margin: auto; }
+
+.lastsection {
+  width: 100%;
+  height: 345px;
+  background-color: #E6E6E6; }
+
+.contentf {
+  font-size: 24px;
+  font-family: "roboto";
+  width: 130px;
+  border-right: 1px solid #000000;
+  height: 27px;
+  padding-right: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #000000; }
+
+.contentf2 {
+  font-size: 24px;
+  font-family: "roboto";
+  height: 18px;
+  padding-left: 5px;
+  font-weight: normal;
+  color: #000000; }
+
+/*content finish*/
+/*respinsive start*/
+.lastnav {
+  padding-top: 30px; }
+
+.responsive {
+  width: 570px;
+  height: 225px;
+  background-color: #F2F2F2; }
+
+.responsive2 {
+  width: 570px;
+  height: 225px;
+  background-color: #F2F2F2;
+  margin-left: 30px; }
+
+.responsiveh {
+  font-size: 22px;
+  color: #3D58A6;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding-top: 20px; }
+
+.imgresp {
+  height: 141px;
+  padding-left: 40px;
+  padding-top: 20px;
+  vertical-align: middle; }
+
+.imgrespp {
+  width: 340px;
+  height: 125px;
+  padding-right: 20px;
+  font-family: "roboto";
+  font-size: 22px;
+  color: #333333;
+  padding-top: 30px;
+  line-height: 23px; }
+
+.imgresp2 {
+  height: 141px;
+  padding-left: 60px;
+  padding-top: 17px;
+  vertical-align: middle; }
+
+.imgrespp2 {
+  width: 355px;
+  height: 120px;
+  padding-left: 40px;
+  font-family: "roboto";
+  font-size: 22px;
+  color: #333333;
+  vertical-align: middle;
+  padding-top: 10px;
+  line-height: 23px; }
+
+.read {
+  font-size: 14px;
+  font-family: "roboto";
+  color: #3D58A6;
+  right: 10px;
+  bottom: 10px; }
+
+footer {
+  width: 100%;
+  height: 60px; }
+
+.footerdiv {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footerpp {
+  margin-top: 10px;
+  font-size: 12px;
+  display: block; }
+
+.footerp {
+  font-size: 12px;
+  display: block;
+  margin-top: 10px; }

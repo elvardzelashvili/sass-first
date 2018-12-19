@@ -1,0 +1,50 @@
+%floatl {
+   float: left;
+}
+%floatr {
+    float: right;
+ }
+
+ %flex-m {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ %flex-s {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ %flex-end {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ %margin0 {
+     margin: 0 auto;
+     width: 1170px;
+     max-width: 1170px;
+     width: 95%;
+
+ } 
+
+ %width100 {
+     width: 100%;
+ }
+ 
+%margin-top {
+    margin-top: 30px;
+ }
+
+
+%positiona {
+    position: absolute;
+}
+
+%positionr {
+    position: relative;
+}
+
+%displayin {
+    display: inline-block
+}
