@@ -82,6 +82,45 @@ header, .mother, nav ul, .box {
 .contentf, .contentf2, .imgresp2, .imgrespp2, .read {
   display: inline-block; }
 
+@media (max-width: 1024px) {
+  .mother nav {
+    display: none; }
+  .burgerimg {
+    display: block;
+    margin-right: 20px; }
+  .headerimg {
+    width: 150px; } }
+
+@media (max-width: 768px) {
+  .mother nav {
+    display: none; }
+  .icons li {
+    display: none; }
+  .icons li:last-child {
+    display: block; }
+  .icons img {
+    height: 30px; }
+  .burgerimg {
+    display: block;
+    margin-right: 20px; }
+  .icons ul {
+    width: 220px; }
+  .headerimg {
+    width: 120px; } }
+
+@media (max-width: 480px) {
+  .icons li {
+    display: none; }
+  .icons li:last-child {
+    display: block; }
+  .list {
+    display: none; }
+  .burgerimg {
+    display: block;
+    margin-right: 20px; }
+  .headerimg {
+    width: 100px; } }
+
 .mother {
   height: 100px;
   max-width: 1170px; }

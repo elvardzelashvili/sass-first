@@ -1,6 +1,7 @@
-@import "reset";
-@import "variables";
-@import "privateelements";
+@import "_reset";
+@import "_variables";
+@import "_privateelements";
+@import "_responsive";
 
 header { @extend  %flex-m;
 }
