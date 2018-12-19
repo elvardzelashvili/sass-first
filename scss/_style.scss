@@ -38,12 +38,6 @@ nav {
    }
 }
 
-.burgerimg{
- width: 30px;
- height: 30px;
- display: none;
-
-}
 
 .icons {
     ul{
@@ -82,6 +76,14 @@ margin-left: 0;
 .imgburger {
     width: 100%;
     height: 100%;
+    display: none;
+   }
+   
+.burgerimg{
+    width: 30px;
+    height: 30px;
+    display: none;
+   
    }
 .headerimg {
  width: 200px;
@@ -142,8 +144,7 @@ h3:last-child
             line-height: 20px;
             padding-top: 10px;
 
-
-        }
+       }
         
             span {
                 font-size:12px;
