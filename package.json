@@ -9,10 +9,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
     "node-sass": "^4.11.0"
   },
-  "dependencies": {
-    "gulp": "^4.0.0"
-  }
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvardzelashvili/sass-first.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elvardzelashvili/sass-first/issues"
+  },
+  "homepage": "https://github.com/elvardzelashvili/sass-first#readme"
 }
