@@ -1,46 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
-
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-* {
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none; }
-
 .containercenter .boxcenter img, .shares h3, .responsive, .articler {
   float: left; }
 
@@ -63,7 +20,6 @@ header, .mother, nav ul, .box {
 
 .mother, .box, .containercenter .boxcenter, .shares, .responsivemother, .footerdiv {
   margin: 0 auto;
-  width: 1170px;
   max-width: 1170px;
   width: 95%; }
 
@@ -121,6 +77,49 @@ header, .mother, nav ul, .box {
   .headerimg {
     width: 100px; } }
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
 .mother {
   height: 100px;
   max-width: 1170px; }
@@ -143,8 +142,6 @@ nav a {
 nav a:hover {
   font-size: 22px;
   color: #29ABE2; }
-
-
 
 .icons ul {
   width: 350px; }
@@ -174,7 +171,12 @@ nav a:hover {
 .imgburger {
   width: 100%;
   height: 100%;
-}
+  display: none; }
+
+.burgerimg {
+  width: 30px;
+  height: 30px;
+  display: none; }
 
 .headerimg {
   width: 200px; }
@@ -272,12 +274,12 @@ nav a:hover {
   font-size: 24px;
   font-family: "roboto";
   width: 130px;
-  border-right: 1px solid #000000;
+  border-right: 1px solid yellow;
   height: 27px;
   padding-right: 5px;
   font-weight: normal;
   text-transform: uppercase;
-  color: #000000; }
+  color: yellow; }
 
 .contentf2 {
   font-size: 24px;
@@ -285,7 +287,7 @@ nav a:hover {
   height: 18px;
   padding-left: 5px;
   font-weight: normal;
-  color: #000000; }
+  color: yellow; }
 
 /*content finish*/
 /*respinsive start*/

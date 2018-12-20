@@ -1,7 +1,8 @@
-@import "reset";
-@import "variables";
-@import "privateelements";
-@import "responsive";
+@import "privateelements.scss";
+@import "variables.scss";
+@import "responsive.scss";
+@import "reset.scss";
+
 
 header { @extend  %flex-m;
 }
@@ -383,3 +384,4 @@ h3:last-child
       }
       
 
+      
